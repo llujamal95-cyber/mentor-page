@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+<title>Mentor Portal</title>
+<link rel='stylesheet' href='mentorlogin.css'>
+</head>
+<body>
+<div class='login-container'>
+<div class='logo-wrap'>
+<img src='C:\Users\Dell\Documents\vs\assets\logo.png' onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+<div class='logo-text' style='display:none'>STEIGEL</div>
+</div>
+<h1>Mentor Portal</h1>
+<p class='sub'>Welcome! Please enter your details.</p>
+<label>Name</label>
+<input id='loginName' placeholder='Enter mentor name'>
+<label>Password</label>
+<input id='loginPassword' type='password' placeholder='Enter password'>
+<div class='row'>
+<label class='check'>
+<input type='checkbox' checked> Remember
+</label>
+<a href='#'>Forgot password?</a>
+</div>
+<button onclick='loginUser()'>login</button>
+<p class='bottom'>Don't have an account? <a href='#'>Contact Mentor</a></p>
+</div>
+<script src='mentorlogin.js'></script>
+</body>
+</html>
